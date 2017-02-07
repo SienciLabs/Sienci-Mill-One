@@ -1,29 +1,60 @@
-The Sienci Mill One was created as an open-source product for the public domain by Sienci Labs. This was done in order to contribute toward the availability of online resources for creating and sharing harware, software, and electronics designs pertaining to rapid prototyping technologies. As an open-source product, the Mill One itself already contains existing open-source products, making additional contributions in the realm of hardware, software, and electronics. It contains the following:
+The Sienci Mill One was created as an open-source product for the public domain by Sienci Labs.
+This was done in order to contribute toward the availability of online resources for creating
+and sharing harware, software, and electronics designs pertaining to rapid prototyping
+technologies. As an open-source product, the Mill One itself already contains existing open
+-source products, making additional contributions in the realm of hardware, software, and
+electronics. It contains the following:
 
         -GRBL firmware
+                "GRBL is opensource software that runs on an Arduino Uno that takes G-Code 
+                commands via Serial and turns the commands into motor signals."
         
-        "GRBL is opensource software that runs on an Arduino Uno that takes G-Code commands via Serial and turns the commands into motor                                                         signals."
-        
-        https://github.com/grbl/grbl
+                https://github.com/grbl/grbl
         
         -Arduino Uno
-        http://www.arduino.org/products/boards/arduino-uno
+                "The Arduino Uno is a microcontroller board based on the ATmega328. It has
+                14 digital input/output pins (of which 6 can be used as PWM outputs), 6
+                analog inputs, a 16 MHz ceramic resonator, a USB connection, a power jack,
+                an ICSP header, and a reset button. It contains everything needed to support
+                the microcontroller; simply connect it to a computer with a USB cable or
+                power it with a AC-to-DC adapter or battery to get started."
+                
+                http://www.arduino.org/products/boards/arduino-uno
         
         -Arduino IDE
-        https://www.arduino.cc/en/main/software
+                "The open-source Arduino Software (IDE) makes it easy to write code and upload
+                it to the board. It runs on Windows, Mac OS X, and Linux. The environment is
+                written in Java and based on Processing and other open-source software."
+                
+                https://www.arduino.cc/en/main/software
         
         -CNC V3.0 HCARDU0086 Arduino Shield
+                "This shield (HCARDU0086) is designed to allow you to control a CNC router or
+                milling machine from an Arduino board. It contains 4 driver sockets which allows
+                compatible Pololu A4988 driver modules to be inserted (see HCMODU0068 on our
+                website) providing the ability to drive 3 stepper motor axis (X,Y, & Z) plus an
+                optional 4th auxiliary motor. Additional connectors provide easy connection of
+                end stop sensors and control buttons."
         
-        "This shield (HCARDU0086) is designed to allow you to control a CNC router or milling machine from an Arduino board. It contains 4 driver sockets which allows compatible Pololu A4988 driver modules to be inserted (see HCMODU0068 on our website) providing the ability to drive 3 stepper motor axis (X,Y, & Z) plus an optional 4th auxiliary motor. Additional connectors provide easy connection of end stop sensors and control buttons."
-        
-        http://forum.hobbycomponents.com/viewtopic.php?f=40&t=1747
-        http://blog.protoneer.co.nz/arduino-cnc-shield/
+                http://forum.hobbycomponents.com/viewtopic.php?f=40&t=1747
+                http://blog.protoneer.co.nz/arduino-cnc-shield/
         
         -Pololu A4988 stepper motor drivers
-        https://www.pololu.com/product/1182
+                "This breakout board for Allegro’s A4988 microstepping bipolar stepper motor
+                driver features adjustable current limiting, over-current and over-temperature
+                protection, and five different microstep resolutions (down to 1/16-step). It
+                operates from 8 V to 35 V and can deliver up to approximately 1 A per phase
+                without a heat sink or forced air flow (it is rated for 2 A per coil with
+                sufficient additional cooling)."
+                
+                https://www.pololu.com/product/1182
 
 
-Following this, we list standard licensing and disclaimer documentation to indicate that any software/firmware we post is under unlicense, any electronics we develop are open-source, and any hardware on the machine, or the machine or parts of the machine used as a whole, are freely available but we do not accept responsibility if our Safety Rules and Guidelines or actions as outlined in our disclaimer are not met:
+The following lists the standard licensing and disclaimer documentation to indicate that any
+software/firmware we post is under Unlicense, any electronics we develop are open-source, and
+any hardware related to the machine as a whole, or parts of the machine used separately, are
+freely available but we do not accept responsibility if our Safety Rules and Guidelines or
+actions as outlined in our disclaimer are not met:
 
 -Software
 
@@ -54,32 +85,62 @@ Following this, we list standard licensing and disclaimer documentation to indic
 
         Disclaimer
 
-The product user takes on all the associated liability pertaining to the operation and performance of the Mill One. The listed                                          “Safety Warnings and Guidelines” outline the necessary precautions that should be taken any time the machine is operated. Sienci Labs will not be held responsible for any damages to property or injury incurred on the operator or bystanders. Sienci Labs will not be held responsible for damages to property or injury incurred on the operator or bystanders if any alterations are made to the design or assembly of our machine. Although care is taken to ensure the accuracy of information made available on this website and other forms of media, Sienci Labs will not be held liable for inaccuracies, errors, or inconsistencies in website content, the content of files linked to by this website, references made to external websites herein, and/or information produced by Sienci Labs. The information which has been made available will not be applicable to all situations and is subject to change without notice so it should not substitute for the discretion of product users. Variability in machine accuracy and performance may occur due to improper machine assembly by the user, as such, Sienci Labs takes on no responsibility for variation between claimed machine specifications and the performance of the user’s machine from improper assembly.
+        The product user takes on all the associated liability pertaining to the
+        operation and performance of the Mill One. The listed “Safety Warnings and
+        Guidelines” outline the necessary precautions that should be taken any time
+        the machine is operated. Sienci Labs will not be held responsible for any
+        damages to property or injury incurred on the operator or bystanders. Sienci
+        Labs will not be held responsible for damages to property or injury incurred
+        on the operator or bystanders if any alterations are made to the design or
+        assembly of our machine. Although care is taken to ensure the accuracy of
+        information made available on this website and other forms of media, Sienci
+        Labs will not be held liable for inaccuracies, errors, or inconsistencies in
+        website content, the content of files linked to by this website, references
+        made to external websites herein, and/or information produced by Sienci Labs.
+        The information which has been made available will not be applicable to all
+        situations and is subject to change without notice so it should not substitute
+        for the discretion of product users. Variability in machine accuracy and
+        performance may occur due to improper machine assembly by the user, as such,
+        Sienci Labs takes on no responsibility for variation between claimed machine
+        specifications and the performance of the user’s machine from improper assembly.
 
 
         Safety Warnings and Guidelines
 
-        1.  Be sure to carefully follow provided machine assembly instructions before machine use to ensure operator safety.
-        2.  All wires must be appropriately positioned before beginning the operation of this machine. Cutting a “live” wire 
-            may cause exposed metal parts of the routing/trimming tool to become electrified and shock the operator.
-        3.  Ensure the machine is placed on a flat surface and in a well-ventilated space before operation.
+        1.  Be sure to carefully follow provided machine assembly instructions before
+            machine use to ensure operator safety.
+        2.  All wires must be appropriately positioned before beginning the operation 
+            of this machine. Cutting a “live” wire may cause exposed metal parts of the
+            routing/trimming tool to become electrified and shock the operator.
+        3.  Ensure the machine is placed on a flat surface and in a well-ventilated 
+            space before operation.
         4.  Always wear eye protection during machine operation.
-        5.  Always wear hearing protection during extended machine operation based on proximity to machine.
-        6.  Materials may release chemicals that are toxic or unsafe to inhale when cut. Always check the Material Safety Data 
-            Sheet (MSDS) of the material in question before cutting. Always cover exposed skin and wear appropriate airway 
-            protection (e.g. dust mask/respirator) specific to the  material used and its application.
-        7.  Any workpiece must be appropriately secured before starting a cutting routine by clamps or other practical securing
-            method. Holding the material by hand or employing any any other unstable form of securing will lead to unsafe loss 
-            of machine control.
-        8.  Cutting bits used for the Mill One should be used at the discretion of the user. Bits are sharp and can crack and
-            break without notice so appropriate care should be taken by the user while manipulating and installing them.
-            Carefully check bits for cracks or damage before operating the machine and replace any cracked or unfit bits immediately.
-        9.  Carefully inspect any consumable material before use on the machine, any unforeseen inconsistency in 
-            material hardness or material quality may cause damage to the machine.
+        5.  Always wear hearing protection during extended machine operation based on 
+            proximity to machine.
+        6.  Materials may release chemicals that are toxic or unsafe to inhale when cut.
+            Always check the Material Safety Data Sheet (MSDS) of the material in question
+            before cutting. Always cover exposed skin and wear appropriate airway protection
+            (e.g. dust mask/respirator) specific to the  material used and its application.
+        7.  Any workpiece must be appropriately secured before starting a cutting routine
+            by clamps or other practical securing method. Holding the material by hand or
+            employing any any other unstable form of securing will lead to unsafe loss of
+            machine control.
+        8.  Cutting bits used for the Mill One should be used at the discretion of the user.
+            Bits are sharp and can crack and break without notice so appropriate care should
+            be taken by the user while manipulating and installing them. Carefully check bits
+            for cracks or damage before operating the machine and replace any cracked or
+            unfit bits immediately.
+        9.  Carefully inspect any consumable material before use on the machine, any
+            unforeseen inconsistency in material hardness or material quality may cause
+            damage to the machine.
         10. Keep away from all moving parts during machine operation.
-        11. Before beginning a cutting job, ensure the router/trimmer runs properly. Immediately disable 
-            the tool if visible vibration or wobble occurs, this might indicate a damaged tool or an improperly installed bit.
-        12. Make sure the bit in not contacting the workpiece before the router/trimmer tool is turned on.
-        13. Do not leave the machine running unattended, the machine should only be operated with the operator present.
-        14. Do not touch the cutting bit immediately after use. It may be hot and could burn the operator.
+        11. Before beginning a cutting job, ensure the router/trimmer runs properly.
+            Immediately disable the tool if visible vibration or wobble occurs, this might
+            indicate a damaged tool or an improperly installed bit.
+        12. Make sure the bit in not contacting the workpiece before the router/trimmer tool
+            is turned on.
+        13. Do not leave the machine running unattended, the machine should only be operated
+            with the operator present.
+        14. Do not touch the cutting bit immediately after use. It may be hot and could burn
+            the operator.
         15. Use bits that are appropriate to the material and cutting speed used. 
