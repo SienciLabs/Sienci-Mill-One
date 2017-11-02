@@ -1,7 +1,5 @@
 # Sienci-Mill-One
-The Sienci Mill One is an open source machine made by Sienci Labs that turns your ideas into reality by carving 3D objects from materials like wood, metal, plastic, foam, and PCB boards. Find out more at https://sienci.com/
-
-The Sienci Mill One was created as an open-source product for the public domain by Sienci Labs. This was done in order to contribute toward the availability of online resources for creating and sharing hardware, software, and electronics designs pertaining to rapid prototyping technologies. As an open-source product, the Mill One itself already contains existing open-source products, making additional contributions in the realm of hardware, software, and electronics.
+The Sienci Mill One is an open source machine made by Sienci Labs that turns your ideas into reality by carving 3D objects from materials like wood, metal, plastic, foam, and PCB boards. This was done in order to contribute toward the availability of online resources for creating and sharing hardware, software, and electronics designs pertaining to rapid prototyping technologies. As an open-source product, the Mill One itself already contains existing open-source products, making additional contributions in the realm of hardware, software, and electronics. Find out more at https://sienci.com/
 
 THIS REPOSITORY IS NOW OBSELETE
 
